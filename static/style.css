@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    /* font-size: 23px; */
+}
+
+body {
+    font-size: 20px;
+}
+
+#navbar {
+    background-color: rgb(138, 61, 61);
+    ;
+    padding: 14px 14px;
+    position: sticky;
+    top: 0;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 11px 27px;
+    color: white;
+    font-size: 1.7rem;
+}
+
+#navbar a:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+
+#introSection {
+    height: 400px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../static/dance.jpg") center / cover no-repeat;
+    width: 100%;
+}
+
+.small {
+    font-size: 52px;
+    padding: 3px;
+}
+
+#sponsorSection hr{
+    border: 2px solid black;
+}
+
+#missonSection hr {
+    border: 2px solid;
+    width: 10;
+}
+
+#sponsorSection h2 {
+    background-color: rgb(196, 180, 44);
+    padding: 15px;
+}
+
+#missonSection h2 {
+    padding: 12px;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 15px;
+    height: 14rem;
+    font-size: 1.5rem;
+}
+
+#card2{
+   padding: 0 4px;
+}
+
+.card-content{
+    padding: 23px 6px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sponsors{
+    margin: 50px 4px;
+}
+
+.spImageasus{
+    width: 500px;
+    height: 100px;
+    padding: 5px 57px;
+    margin: 138px 4px;
+}
+
+.spImageApple{
+    width: 500px;
+    height: 400px;
+    padding: 84px 137px;
+}
+
+.spImage{
+    /* float: left; */
+    height: 100%;
+    padding: 50px 110px;
+    width: 500px;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card h3 {
+    margin: 12px;
+    text-align: center;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+
+
+/* margin should be 5px from left and right while using media queries */
+
+#missonSection {
+    width: 1100px;
+    display: block;
+    margin: auto;
+    height: 380px;
+}
+
+#sponsorSection {
+    height: 700px;
+    text-align: center;
+    background-color: khaki;
+
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 60px;
+    color: white;
+    background-color: black;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 4px;
+}

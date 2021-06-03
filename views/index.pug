@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title Vaibhav Dance Academy
+    style
+      include ../static/style.css
+
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="../static/newLogo7.png")
+          | VDA
+        li #[a(href="/") Home]
+        li #[a(href="/about") About]
+        li #[a(href="/services") Services]
+        li #[a(href="/info") Class Info]
+        li #[a(href="/contact") Contact Us]
+
+  section#introSection
+    div Welcome to Vaibhav's Dance Academy
+    div.small Eat Sleep Dance Repeat
+
+  section#missonSection 
+    h2 Our Missons 
+    hr
+    div.card 
+      h3 Dance Perfection
+      hr
+      div.card-box
+        div.card-img
+          img(src="../static/dance7.png" alt="")
+        div.card-content 
+          p Our teachers train you as proffessional dancers.So get started
+    div.card#card2
+      h3 Dance the way you like
+      hr
+      div.card-box
+        div.card-img
+          img(src="../static/newDance2.png" alt="")
+        div.card-content
+         p Dance is the hidden language of the soul.  
+
+    div.card 
+      h3 Expert Teachings
+      hr
+      div.card-box
+        div.card-img
+          img(src="../static/dance12.png" alt="")
+        div.card-content 
+          p In our acadmey there are experts for every type of dance.     
+
+  section#sponsorSection
+    h2 Our Sponsors
+    hr
+    #sponsors
+       img(src="../static/marvel.png", alt="Sponsor image", class = "spImage")
+       img(src="../static/microsoft.png", alt="Sponsor image", class = "spImage")
+       img(src="../static/apple.png", alt="Sponsor image", class = "spImageApple")
+       img(src="../static/asus.png", alt="Sponsor image", class = "spImageasus")
+  footer#footer
+    | Copyright © 2021 #[a(href = "/") VaibhavDanceAcadmey.com] | All right reserved.
